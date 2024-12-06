@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-wrapper{
+    max-width: 1100px;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden        ;
+}
+
+.card-list .card-item{
+    list-style:none;
+}
+.card-list .card-item .card-link {
+    user-select: none;
+    display: block;
+    background-color: whitesmoke;
+    padding: 19px;
+    border-radius: 12px;
+    text-decoration:none;
+}
+
+.card-list .card-link .card-image {
+    width:100%;
+    aspect-ratio: 16/9;
+    object-fit:cover;
+    border-radius: 10px;
+}
+
+.card-list .card-link .Coursetype {
+    width:fit-content;
+    color: #707374;
+}
+
+.card-list .card-link h2{
+    font-size: 1.19rem;
+    color: black;
+    font-weight: 600;
+}
+
+.card-list .card-link .material-symbols-rounded{
+    border: 1px  #007bff;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    transform: rotate(-45deg);
+    float:right;
+}
+
+.card-list .card-item:hover h2{
+    color: #007bff;
+
+}
+
+.card-list .card-item:hover .material-symbols-rounded{
+    background-color: #007bff;
+    color: aliceblue;
+}
